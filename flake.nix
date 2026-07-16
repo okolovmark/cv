@@ -10,7 +10,10 @@
     in
     {
       devShells = forAllSystems (pkgs: {
-        default = pkgs.mkShell { packages = [ pkgs.typst ]; };
+        default = pkgs.mkShell {
+          packages = [ pkgs.typst ];
+          TYPST_FONT_PATHS = "${pkgs.source-sans}/share/fonts";
+        };
       });
 
       apps = forAllSystems (pkgs: {
@@ -18,6 +21,7 @@
           type = "app";
           program = toString (pkgs.writeShellScript "build-cv" ''
             export PATH=${pkgs.typst}/bin:$PATH
+            export TYPST_FONT_PATHS=${pkgs.source-sans}/share/fonts
             exec ${pkgs.bash}/bin/bash ${self}/build.sh
           '');
         };
