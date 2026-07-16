@@ -1,0 +1,148 @@
+name: Mark Okolov
+location: Laguna, Philippines
+email: okolovmark@gmail.com
+github: github.com/okolovmark
+linkedin: linkedin.com/in/okolovmark
+
+education:
+  school: Belarusian State University of Informatics and Radioelectronics
+  field: Computer Science and Programming Technologies (not completed)
+  years: 2014-2017
+
+languages:
+  - name: English
+    level: Professional working proficiency
+  - name: Russian
+    level: Native
+
+open_source:
+  - name: nixodoo-copier-template
+    url: https://github.com/okolovmark/nixodoo-copier-template
+    line: "Reproducible Odoo dev environments on Nix flakes (Odoo 16-19), AI agent pipeline included."
+  - name: odoo-fast-mcp
+    url: https://github.com/okolovmark/odoo-fast-mcp
+    line: "MCP server that gives AI agents controlled RPC access to Odoo."
+
+positions:
+  - id: kaertech_ai
+    title: AI Integration Engineer
+    company: Kaertech (Baracoda group)
+    where: Laguna, Philippines
+    dates: "Jun 2026 - present"
+    bullets:
+      pipeline: >-
+        Built and operate an AI agent development pipeline on a production
+        Odoo ERP: ticket intake, agent coding in isolated per-task
+        environments, automated review, testing and documentation gates,
+        then PR. Nearly all development ships through it; my own delivery is
+        roughly 5x faster, team throughput about doubled.
+      mcp: >-
+        Wrote MCP servers connecting agents to Odoo (RPC), PostgreSQL and
+        Microsoft Teams: automated status reporting, deploy notifications,
+        ticket lifecycle.
+      local: >-
+        Run local models via Ollama where cloud APIs do not fit.
+      opensource: >-
+        Published the tooling as open source: nixodoo-copier-template and
+        odoo-fast-mcp.
+
+  - id: kaertech_mgr
+    title: Information Technology Manager (Odoo Tech Lead)
+    company: Kaertech (Baracoda group)
+    where: Laguna, Philippines
+    dates: "Mar 2022 - Jun 2026"
+    bullets:
+      own: >-
+        Owned the Odoo ERP of an international electronics manufacturer end
+        to end: 200 users, 3 companies, about 20 custom modules across MRP,
+        inventory, sales, purchasing, HR and projects. Managed the IT team
+        of 9.
+      intercompany: >-
+        Automated intercompany trading between two manufacturing entities
+        (mirrored orders, stock routes, FIFO valuation). Syncing that used
+        to take days of manual encoding is now a visual check and a confirm.
+      sync: >-
+        Built Odoo-to-Odoo master data synchronization on the OCA connector
+        framework with queue_job async processing, peaks of 300,000 records
+        a day.
+      cost: >-
+        Analysed platform licensing and architecture, executed the change
+        and cut platform costs by about 70%.
+      cicd: >-
+        Set up CI/CD (CircleCI, GitHub) and containerised deployments; made
+        dev environments reproducible with Nix flakes.
+      prodops: >-
+        Ran production operations: PostgreSQL, monitoring (Grafana, Sentry),
+        on-call, deploys.
+
+  - id: freelance
+    title: Freelance Odoo / Python Developer
+    company: Sole proprietor
+    where: Belarus
+    dates: "Jan 2021 - present"
+    bullets:
+      odoo_dev: >-
+        Odoo development for freelance clients.
+
+  - id: smile2impress
+    title: Odoo Developer
+    company: Smile2impress
+    where: Minsk, Belarus
+    dates: "Nov 2021 - Mar 2022"
+    bullets:
+      aligner: >-
+        Odoo development for a dental aligner scale-up: sales and purchasing
+        flows.
+
+  - id: ventortech
+    title: Python / Odoo Developer
+    company: VentorTech
+    where: Minsk, Belarus
+    dates: "Apr 2020 - Nov 2021"
+    bullets:
+      modules: >-
+        Custom Odoo modules and integrations for client ERP and eCommerce
+        projects at an Odoo partner.
+      rabbitmq: >-
+        Built a RabbitMQ connector and integrated Odoo with client
+        microservices.
+      deploy: >-
+        Developed a multi-server deployment system on AWS and Ansible,
+        cutting deployment time several times over.
+      mentor: >-
+        Wrote technical specifications and estimates, mentored junior
+        developers, reviewed code.
+
+  - id: setronica
+    title: Python Developer (part-time)
+    company: SETRONICA
+    where: Belarus
+    dates: "Feb 2021 - Jun 2021"
+    bullets: {}
+
+  - id: itransition
+    title: Python Developer
+    company: Itransition Group
+    where: Minsk, Belarus
+    dates: "Oct 2019 - Apr 2020"
+    bullets:
+      engines: >-
+        Odoo development on a large ERP project for an American engine
+        manufacturing and repair company.
+      tablet: >-
+        Built a custom tablet interface for shop floor employees, with heavy
+        JavaScript work.
+      perf16: >-
+        Rewrote the product view logic, making it 16x faster.
+      redis: >-
+        Added Redis caching and worker queues to stabilise key reports.
+
+  - id: abiatec
+    title: Python Developer
+    company: Abiatec
+    where: Minsk, Belarus
+    dates: "Apr 2018 - Oct 2019"
+    bullets:
+      django: >-
+        Django and Odoo development for client projects: backend features,
+        data migrations, SQL scripts.

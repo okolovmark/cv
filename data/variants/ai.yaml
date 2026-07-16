@@ -1,0 +1,26 @@
+title: AI Integration Engineer
+summary: >-
+  Most AI agents die in demos because nobody wires them into the systems
+  where the business actually lives. I spent 8 years inside those systems:
+  ERP, PostgreSQL, manufacturing and supply chain operations. Now I connect
+  AI agents to them so they do real work: a production agent pipeline that
+  ships most of our code, and MCP servers that let agents act in Odoo,
+  PostgreSQL and Teams.
+skills: >-
+  Python, Odoo, PostgreSQL, MCP, LLM agents (Claude, local models via
+  Ollama), Nix, Docker, CI/CD, RabbitMQ, REST/RPC, Linux
+positions:
+  - id: kaertech_ai
+    bullets: [pipeline, mcp, local, opensource]
+  - id: kaertech_mgr
+    bullets: [own, intercompany, sync, cost, cicd]
+  - id: freelance
+    bullets: [odoo_dev]
+  - id: smile2impress
+    bullets: [aligner]
+  - id: ventortech
+    bullets: [modules, rabbitmq, deploy]
+  - id: itransition
+    bullets: [engines, perf16]
+  - id: abiatec
+    bullets: [django]

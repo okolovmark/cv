@@ -1,0 +1,24 @@
+title: Senior Python Developer
+summary: >-
+  8 years of backend Python: ERP systems, integrations and infrastructure.
+  Comfortable owning a system end to end, from architecture and code to
+  CI/CD and production operations. Track record includes a 16x performance
+  rewrite, a data sync handling peaks of 300,000 records a day and a
+  platform change that cut costs by about 70%. Lately I build AI agent
+  tooling on top of those systems.
+skills: >-
+  Python, PostgreSQL, RabbitMQ, Redis, AWS, Ansible, Docker, Nix, CI/CD,
+  REST APIs, Linux, Odoo, Django, MCP
+positions:
+  - id: kaertech_ai
+    bullets: [pipeline, mcp]
+  - id: kaertech_mgr
+    bullets: [own, sync, cost, cicd, prodops]
+  - id: freelance
+    bullets: [odoo_dev]
+  - id: ventortech
+    bullets: [rabbitmq, deploy, mentor]
+  - id: itransition
+    bullets: [perf16, redis, tablet]
+  - id: abiatec
+    bullets: [django]

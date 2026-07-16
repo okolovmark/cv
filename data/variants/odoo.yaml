@@ -1,0 +1,26 @@
+title: Senior Odoo Developer / Tech Lead
+summary: >-
+  8 years of Odoo, versions 10 to 19, Community and Enterprise. Tech lead of
+  an electronics manufacturer's ERP: 200 users, 3 companies, about 20 custom
+  modules across MRP, inventory, purchasing, HR and projects. Deep OCA
+  ecosystem experience (connector, queue_job). I also build the tooling
+  around Odoo: reproducible Nix dev environments and an AI agent development
+  pipeline, both open source.
+skills: >-
+  Odoo 10-19 (CE/EE), Python, PostgreSQL, OCA (connector, queue_job),
+  XML/QWeb, JavaScript/OWL, Nix, Docker, CI/CD, RabbitMQ, Linux
+positions:
+  - id: kaertech_ai
+    bullets: [pipeline, opensource]
+  - id: kaertech_mgr
+    bullets: [own, intercompany, sync, cicd, prodops]
+  - id: freelance
+    bullets: [odoo_dev]
+  - id: smile2impress
+    bullets: [aligner]
+  - id: ventortech
+    bullets: [modules, rabbitmq, mentor]
+  - id: itransition
+    bullets: [engines, tablet, perf16]
+  - id: abiatec
+    bullets: [django]
