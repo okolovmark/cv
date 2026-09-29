@@ -95,9 +95,9 @@ positions:
         (mirrored orders, stock routes, FIFO valuation). Syncing that used
         to take days of manual encoding is now a visual check and a confirm.
       sync: >-
-        Built Odoo-to-Odoo master data synchronization on the OCA connector
-        framework with queue_job async processing, peaks of 300,000 records
-        a day.
+        Designed and led Odoo-to-Odoo master data synchronization on the OCA
+        connector framework with queue_job async processing, peaks of 300,000
+        records a day.
       cost: >-
         Analysed platform licensing and architecture, executed the change
         and cut platform costs by about 70%.
