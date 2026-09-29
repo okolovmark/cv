@@ -1,9 +1,9 @@
 # CV as code
 
-One fact core, three targeted builds.
+One fact core, four targeted builds.
 
 - `data/core.yaml` -- single source of truth: positions, dates, metrics, bullet pool.
-- `data/variants/{ai,odoo,python}.yaml` -- per-variant title, summary, skills line and bullet selection (by key, in order).
+- `data/variants/{ai,odoo,python,fde}.yaml` -- per-variant title, summary, skills line and bullet selection (by key, in order).
 - `src/cv.typ` -- Typst template.
 
 ## Build

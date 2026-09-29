@@ -1,5 +1,5 @@
 {
-  description = "CV as code: one fact core, three variants (ai / odoo / python), Typst output";
+  description = "CV as code: one fact core, four variants (ai / odoo / python / fde), Typst output";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 

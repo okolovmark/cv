@@ -11,7 +11,7 @@ education:
 
 languages:
   - name: English
-    level: Professional working proficiency
+    level: B2+, daily working language
   - name: Russian
     level: Native
 
@@ -36,6 +36,29 @@ positions:
         environments, automated review, testing and documentation gates,
         then PR. Nearly all development ships through it; my own delivery is
         roughly 5x faster, team throughput about doubled.
+      pipeline_release: >-
+        Built and run the team's AI agent development pipeline: ticket intake,
+        agent coding in isolated environments, automated review and test
+        gates, PR. Same five developers: merged PRs from 13-25 a month to 78
+        (June 2026), deploys from weekly to 4-7 a day.
+      lead_to_cash: >-
+        Owned Lead-to-Cash from the first design session with the CEO to
+        production: CRM lead and quote, intercompany order pair,
+        manufacturing, invoices and bills, a 24-month cash-flow forecast. The
+        CEO's own scenarios ran end to end before release.
+      finance: >-
+        Built its accounting side: intercompany invoice and vendor bill posted
+        as a matched pair, a cash-flow forecast from AR/AP and payment terms,
+        and a worklist that sorted 484 overdue items for the accounting team.
+      reconcile: >-
+        After the Odoo 12 to 16 migration, relinked invoices that had lost
+        their orders by reconciling against the source system. IDs had not
+        survived, so documents were matched on number, amount and lines.
+      distributor: >-
+        Integrated the Mouser, Digi-Key and LCSC APIs for part prices, MOQ and
+        packaging: batched jobs, a daily call budget, dry run first. When
+        Mouser throttled in production, stopped with zero writes, added
+        per-vendor pacing, relaunched.
       mcp: >-
         Wrote MCP servers connecting agents to Odoo (RPC), PostgreSQL and
         Microsoft Teams: automated status reporting, deploy notifications,
@@ -57,6 +80,16 @@ positions:
         to end: 200 users, 3 companies, about 20 custom modules across MRP,
         inventory, sales, purchasing, HR and projects. Managed the IT team
         of 9.
+      own_fde: >-
+        Owned the Odoo ERP of an international electronics manufacturer end
+        to end (200 users, 3 companies, about 20 custom modules), working
+        directly with the CEO, supply chain, accounting and procurement.
+        Managed the IT team of 9.
+      migration: >-
+        Planned and led the migration from Odoo 12 to 16 with the team:
+        module by module, both systems live in parallel, master data kept in
+        sync by an OCA connector on queue_job with peaks of 300,000 records a
+        day.
       intercompany: >-
         Automated intercompany trading between two manufacturing entities
         (mirrored orders, stock routes, FIFO valuation). Syncing that used
@@ -74,6 +107,9 @@ positions:
       prodops: >-
         Ran production operations: PostgreSQL, monitoring (Grafana, Sentry),
         on-call, deploys.
+      prodops_pg: >-
+        Ran production PostgreSQL: query plans, indexes, SQL views, backups,
+        upgrades, data fixes on live data behind a dry run.
 
   - id: freelance
     title: Freelance Odoo / Python Developer
@@ -103,6 +139,11 @@ positions:
       modules: >-
         Custom Odoo modules and integrations for client ERP and eCommerce
         projects at an Odoo partner.
+      client_delivery: >-
+        Worked directly with the partner's clients: requirements, technical
+        specifications and estimates, then custom Odoo modules and
+        integrations through to delivery. Mentored junior developers and
+        reviewed code.
       rabbitmq: >-
         Built a RabbitMQ connector and integrated Odoo with client
         microservices.

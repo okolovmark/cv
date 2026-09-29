@@ -1,0 +1,28 @@
+title: Applied / Forward-Deployed Engineer
+summary: >-
+  Eight years building ERP software with the people who run the business on
+  it. At Kaertech I own the Odoo ERP of an electronics manufacturer and take
+  requests from the CEO or the accounting team from the first conversation to
+  a verified production release. Lately that is mostly finance work:
+  intercompany invoicing, cash-flow forecasting, reconciling migrated data.
+  The AI agent pipeline I built took the team from one deploy a week to
+  several a day.
+skills: >-
+  Python, PostgreSQL, Odoo 10-19, Django, JavaScript (OWL), REST/RPC and
+  third-party APIs, background jobs (OCA queue_job, Redis), RabbitMQ, Docker,
+  Nix, CI/CD, MCP, LLM agents. Finance: AR/AP, intercompany, cash-flow
+  forecasting, reconciliation.
+positions:
+  - id: kaertech_ai
+    bullets: [lead_to_cash, finance, reconcile, distributor, pipeline_release]
+  - id: kaertech_mgr
+    bullets: [own_fde, migration, cost, prodops_pg]
+  - id: freelance
+  - id: smile2impress
+    bullets: [aligner]
+  - id: ventortech
+    bullets: [client_delivery, rabbitmq]
+  - id: itransition
+    bullets: [perf16, tablet]
+  - id: abiatec
+    bullets: [django]
